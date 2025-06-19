@@ -3,43 +3,87 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Мой простой сайт</title>
+  <title>Online Avatars Article</title>
   <style>
     body {
       margin: 0;
-      padding: 0;
-      font-family: sans-serif;
-      color: white;
-      background: linear-gradient(to right, #4b6cb7, #182848); /* красивый фон */
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      text-align: center;
+      padding: 40px;
+      font-family: Arial, sans-serif;
+      background: url('asserts/fon.png') no-repeat center center;
+      background-size: cover;
+      color: rgb(26, 35, 126);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 750px;
+      margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.9); /* белый полупрозрачный фон для читаемости */
+      padding: 20px;
+      border-radius: 10px;
     }
 
     h1 {
-      font-size: 3em;
-      margin-bottom: 0.5em;
+      color: rgb(57, 73, 171);
+      text-align: center;
+    }
+
+    .author {
+      text-decoration: underline;
+      color: rgb(26, 35, 126);
+      font-weight: bold;
+    }
+
+    .number {
+      color: rgb(57, 73, 171);
+      font-weight: bold;
+      margin-right: 4px;
     }
 
     p {
-      font-size: 1.5em;
-      max-width: 600px;
+      margin-bottom: 20px;
     }
 
     img {
-      margin-top: 30px;
-      max-width: 300px;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+      display: block;
+      margin: 30px auto;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .highlight-blue {
+      color: rgb(0, 176, 240);
+      font-weight: bold;
+    }
+
+    .highlight-darkblue {
+      color: rgb(0, 32, 96);
+      font-weight: bold;
     }
   </style>
+
 </head>
 <body>
-  <h1>Добро пожаловать на мой сайт!</h1>
-  <p>Это простой пример сайта с красивым фоном, заголовком, текстом и изображением. Всё написано только на HTML и CSS.</p>
-  <img src="https://placekitten.com/300/200" alt="Котик" />
+
+  <div class="container">
+    <h1><span class="author">Simon Boswell</span> investigates the weird and wonderful world of online avatars.</h1>
+
+    <p><span class="number">1</span>When you are online you can be anyone or anything – you can create your own image and a new personality, you can be anyone you want to be.</p>
+
+    <p><span class="number">2</span>The first, simple two-dimensional avatars in the mid 1980s in role-playing computer games.</p>
+
+    <p>By the late 1990’s, they were in web chats like Instant Messenger. Nowadays, avatars are everywhere, in most chats, people use simple, ready-made images or upload their own images but you can also use dynamic avatars that move around and talk when you type in your message.</p>
+
+    <p><span class="number">3</span>Avatars in online worlds like Second Life can walk and fly around, meet people, go shopping or go to classes. There is lots of room for creativity and you can get a brand-new identity. If you're well-off, you can spend a fortune on buying virtual clothes and jewellery for your well-dressed, fashion conscious avatar.</p>
+
+    <p><span class="number">4</span>Of course, the avatar you choose says a lot about your personality. If your blog avatar is a picture of a kitten, your message is “I’m a playful, laid-back person”. Well-known cartoon characters or laughing chimpanzees say “I’m a really funny person”.</p>
+
+    <p><span class="number">5</span>Surprisingly, most people create avatars that look more or less like them and behave like them. However, nearly all avatars are tall, young, nice-looking so people obviously make a few improvements to their bodies and they also experiment with things like long hair, tattoos and piercings. Many people have more than one avatar, a sensible one for work, a good-looking, easy-going one for meeting people and a silly one for having fun.</p>
+
+    <p><span class="number">6</span>Soon, over eighty percent of internet users will have at least one avatar and in some countries there will be more avatars than real people. Some people say that we spend too much time in virtual worlds and will become afraid of meeting people in the real world. Others look forward to the time when their avatar will look and act just like a real person and be able to travel around bigger, more exciting worlds.</p>
+
+    <img src="asserts/avatars.png" alt="Avatars Image">
+  </div>
+
 </body>
 </html>
